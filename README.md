@@ -1,5 +1,5 @@
 # SGeneralUtils
-Project provides basic idea and approach to implement the different kinds of Data Structure, this was writted well maintained Tastale Architeture.
+Project provides basic idea and approach to implement the different kinds of Data Structure, this was writted well maintained Tastable Architecture.
 
 # Data Structure
 
