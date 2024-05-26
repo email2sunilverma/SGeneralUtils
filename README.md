@@ -3,7 +3,7 @@ Project provides basic idea and approach to implement the different kinds of Dat
 
 # Data Structure
 
-* Stack, Queue, Linnklist, MVVM, Testable
+* Stack, Queue, Linklist, MVVM, Testable
 
 
 
