@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF2C97962C03B5D600992610 /* SEmployeeDetailResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2C97952C03B5D600992610 /* SEmployeeDetailResponse.swift */; };
+		BF2C97982C03B7E000992610 /* SEmployeeDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2C97972C03B7E000992610 /* SEmployeeDetailViewModel.swift */; };
 		BF6C90BD2C02EE71004ACA0B /* SGeneralUtilityApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6C90BC2C02EE71004ACA0B /* SGeneralUtilityApp.swift */; };
 		BF6C90BF2C02EE71004ACA0B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6C90BE2C02EE71004ACA0B /* ContentView.swift */; };
 		BF6C90C12C02EE74004ACA0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF6C90C02C02EE74004ACA0B /* Assets.xcassets */; };
@@ -29,9 +31,21 @@
 		BF6C90F62C030D2C004ACA0B /* SQueueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6C90F52C030D2C004ACA0B /* SQueueView.swift */; };
 		BF6C90FD2C030EF0004ACA0B /* SLinkedListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6C90FC2C030EF0004ACA0B /* SLinkedListView.swift */; };
 		BF6C90FF2C030F86004ACA0B /* SLinkListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6C90FE2C030F86004ACA0B /* SLinkListViewModel.swift */; };
+		BF6C91022C032C59004ACA0B /* SNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6C91012C032C59004ACA0B /* SNetworkManager.swift */; };
+		BF6C91042C032D10004ACA0B /* SAPIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6C91032C032D10004ACA0B /* SAPIRequest.swift */; };
+		BF6C91062C032DB9004ACA0B /* SEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6C91052C032DB9004ACA0B /* SEnvironment.swift */; };
+		BF6C910B2C033C5E004ACA0B /* SEmployeeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6C910A2C033C5E004ACA0B /* SEmployeeViewModel.swift */; };
+		BF6C91102C033EAA004ACA0B /* URLRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6C910F2C033EAA004ACA0B /* URLRepository.swift */; };
+		BF6C91122C034839004ACA0B /* SEmployeeResponnse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6C91112C034839004ACA0B /* SEmployeeResponnse.swift */; };
+		BF6C91142C034A2C004ACA0B /* SEmployeeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6C91132C034A2C004ACA0B /* SEmployeeListView.swift */; };
+		BF6C91162C034AA1004ACA0B /* SEmployeeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6C91152C034AA1004ACA0B /* SEmployeeRow.swift */; };
+		BF6C91182C034B20004ACA0B /* SEmployeeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6C91172C034B20004ACA0B /* SEmployeeDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BF2C97942C03B07E00992610 /* SGeneralUtility.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SGeneralUtility.entitlements; sourceTree = "<group>"; };
+		BF2C97952C03B5D600992610 /* SEmployeeDetailResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SEmployeeDetailResponse.swift; sourceTree = "<group>"; };
+		BF2C97972C03B7E000992610 /* SEmployeeDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SEmployeeDetailViewModel.swift; sourceTree = "<group>"; };
 		BF6C90B92C02EE71004ACA0B /* SGeneralUtility.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SGeneralUtility.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF6C90BC2C02EE71004ACA0B /* SGeneralUtilityApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGeneralUtilityApp.swift; sourceTree = "<group>"; };
 		BF6C90BE2C02EE71004ACA0B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +69,16 @@
 		BF6C90F52C030D2C004ACA0B /* SQueueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQueueView.swift; sourceTree = "<group>"; };
 		BF6C90FC2C030EF0004ACA0B /* SLinkedListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLinkedListView.swift; sourceTree = "<group>"; };
 		BF6C90FE2C030F86004ACA0B /* SLinkListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLinkListViewModel.swift; sourceTree = "<group>"; };
+		BF6C91012C032C59004ACA0B /* SNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SNetworkManager.swift; sourceTree = "<group>"; };
+		BF6C91032C032D10004ACA0B /* SAPIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SAPIRequest.swift; sourceTree = "<group>"; };
+		BF6C91052C032DB9004ACA0B /* SEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SEnvironment.swift; sourceTree = "<group>"; };
+		BF6C910A2C033C5E004ACA0B /* SEmployeeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SEmployeeViewModel.swift; sourceTree = "<group>"; };
+		BF6C910F2C033EAA004ACA0B /* URLRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLRepository.swift; sourceTree = "<group>"; };
+		BF6C91112C034839004ACA0B /* SEmployeeResponnse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SEmployeeResponnse.swift; sourceTree = "<group>"; };
+		BF6C91132C034A2C004ACA0B /* SEmployeeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SEmployeeListView.swift; sourceTree = "<group>"; };
+		BF6C91152C034AA1004ACA0B /* SEmployeeRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SEmployeeRow.swift; sourceTree = "<group>"; };
+		BF6C91172C034B20004ACA0B /* SEmployeeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SEmployeeDetailView.swift; sourceTree = "<group>"; };
+		BF6C91192C034D51004ACA0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +111,10 @@
 		BF6C90BB2C02EE71004ACA0B /* SGeneralUtility */ = {
 			isa = PBXGroup;
 			children = (
+				BF2C97942C03B07E00992610 /* SGeneralUtility.entitlements */,
+				BF6C91192C034D51004ACA0B /* Info.plist */,
+				BF6C91072C033BEA004ACA0B /* Employee */,
+				BF6C91002C032C3D004ACA0B /* NetworkManager */,
 				BF6C90DA2C02F5EF004ACA0B /* UIComponents */,
 				BF6C90D12C02F09B004ACA0B /* FeatureList */,
 				BF6C90CA2C02EE93004ACA0B /* DataStruture */,
@@ -233,6 +261,55 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		BF6C91002C032C3D004ACA0B /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				BF6C910F2C033EAA004ACA0B /* URLRepository.swift */,
+				BF6C91012C032C59004ACA0B /* SNetworkManager.swift */,
+				BF6C91032C032D10004ACA0B /* SAPIRequest.swift */,
+				BF6C91052C032DB9004ACA0B /* SEnvironment.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		BF6C91072C033BEA004ACA0B /* Employee */ = {
+			isa = PBXGroup;
+			children = (
+				BF6C910C2C033D11004ACA0B /* Model */,
+				BF6C91092C033C0A004ACA0B /* ViewModel */,
+				BF6C91082C033BFD004ACA0B /* View */,
+			);
+			path = Employee;
+			sourceTree = "<group>";
+		};
+		BF6C91082C033BFD004ACA0B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BF6C91132C034A2C004ACA0B /* SEmployeeListView.swift */,
+				BF6C91152C034AA1004ACA0B /* SEmployeeRow.swift */,
+				BF6C91172C034B20004ACA0B /* SEmployeeDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BF6C91092C033C0A004ACA0B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BF6C910A2C033C5E004ACA0B /* SEmployeeViewModel.swift */,
+				BF2C97972C03B7E000992610 /* SEmployeeDetailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BF6C910C2C033D11004ACA0B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BF6C91112C034839004ACA0B /* SEmployeeResponnse.swift */,
+				BF2C97952C03B5D600992610 /* SEmployeeDetailResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -304,13 +381,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF6C91122C034839004ACA0B /* SEmployeeResponnse.swift in Sources */,
 				BF6C90E42C02F9A7004ACA0B /* SLazyView.swift in Sources */,
 				BF6C90EC2C0300B4004ACA0B /* SStackViewModel.swift in Sources */,
+				BF6C91102C033EAA004ACA0B /* URLRepository.swift in Sources */,
 				BF6C90CC2C02EEC7004ACA0B /* SStack.swift in Sources */,
 				BF6C90FD2C030EF0004ACA0B /* SLinkedListView.swift in Sources */,
 				BF6C90DE2C02F61A004ACA0B /* SLabel.swift in Sources */,
 				BF6C90F62C030D2C004ACA0B /* SQueueView.swift in Sources */,
 				BF6C90F42C030C31004ACA0B /* SQueueViewModel.swift in Sources */,
+				BF6C91162C034AA1004ACA0B /* SEmployeeRow.swift in Sources */,
+				BF6C91042C032D10004ACA0B /* SAPIRequest.swift in Sources */,
+				BF2C97962C03B5D600992610 /* SEmployeeDetailResponse.swift in Sources */,
 				BF6C90E82C02FDBD004ACA0B /* SStackView.swift in Sources */,
 				BF6C90E22C02F90D004ACA0B /* SNavLabel.swift in Sources */,
 				BF6C90D42C02F0D3004ACA0B /* SFeatureListView.swift in Sources */,
@@ -319,10 +401,16 @@
 				BF6C90FF2C030F86004ACA0B /* SLinkListViewModel.swift in Sources */,
 				BF6C90BF2C02EE71004ACA0B /* ContentView.swift in Sources */,
 				BF6C90CE2C02EEEA004ACA0B /* SLinkedList.swift in Sources */,
+				BF6C910B2C033C5E004ACA0B /* SEmployeeViewModel.swift in Sources */,
 				BF6C90D92C02F535004ACA0B /* SFeatureViewModel.swift in Sources */,
+				BF6C91022C032C59004ACA0B /* SNetworkManager.swift in Sources */,
 				BF6C90D62C02F0EA004ACA0B /* SFeatureRow.swift in Sources */,
 				BF6C90EF2C030AB7004ACA0B /* SBindLabel.swift in Sources */,
 				BF6C90BD2C02EE71004ACA0B /* SGeneralUtilityApp.swift in Sources */,
+				BF6C91062C032DB9004ACA0B /* SEnvironment.swift in Sources */,
+				BF6C91182C034B20004ACA0B /* SEmployeeDetailView.swift in Sources */,
+				BF6C91142C034A2C004ACA0B /* SEmployeeListView.swift in Sources */,
+				BF2C97982C03B7E000992610 /* SEmployeeDetailViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,11 +536,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = SGeneralUtility/SGeneralUtility.entitlements;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SGeneralUtility/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SGeneralUtility/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -465,6 +556,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.thelion.SGeneralUtility;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -476,11 +571,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = SGeneralUtility/SGeneralUtility.entitlements;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SGeneralUtility/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SGeneralUtility/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -493,6 +591,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.thelion.SGeneralUtility;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
