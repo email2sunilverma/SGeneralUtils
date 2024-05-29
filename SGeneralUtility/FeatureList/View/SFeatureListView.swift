@@ -12,6 +12,7 @@ enum SFeature: Int, CaseIterable {
     case stack
     case queue
     case linkList
+    case imageToText
     case api
     
     var displayName: String {
@@ -22,8 +23,11 @@ enum SFeature: Int, CaseIterable {
             return "Queue"
         case .linkList:
             return "Linked List"
+        case .imageToText:
+            return "Image To Text"
         case .api:
             return "API"
+       
         }
     }
     
@@ -35,6 +39,8 @@ enum SFeature: Int, CaseIterable {
                 return AnyView(SQueueView(viewModel: SQueueViewModel()))
             case.api:
                 return AnyView(SEmployeeListView())
+            case .imageToText:
+                return AnyView(SImageProcessView())
             default:
                 return AnyView(SLinkedListView(viewModel: SLinkListViewModel()))
             }

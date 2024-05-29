@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF05770E2C07928400A15A8F /* SImageProcessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF05770D2C07928400A15A8F /* SImageProcessView.swift */; };
+		BF0577102C07930900A15A8F /* SImageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF05770F2C07930900A15A8F /* SImageProcessor.swift */; };
 		BF2C97962C03B5D600992610 /* SEmployeeDetailResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2C97952C03B5D600992610 /* SEmployeeDetailResponse.swift */; };
 		BF2C97982C03B7E000992610 /* SEmployeeDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2C97972C03B7E000992610 /* SEmployeeDetailViewModel.swift */; };
 		BF6C90BD2C02EE71004ACA0B /* SGeneralUtilityApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6C90BC2C02EE71004ACA0B /* SGeneralUtilityApp.swift */; };
@@ -43,6 +45,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BF05770D2C07928400A15A8F /* SImageProcessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SImageProcessView.swift; sourceTree = "<group>"; };
+		BF05770F2C07930900A15A8F /* SImageProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SImageProcessor.swift; sourceTree = "<group>"; };
 		BF2C97942C03B07E00992610 /* SGeneralUtility.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SGeneralUtility.entitlements; sourceTree = "<group>"; };
 		BF2C97952C03B5D600992610 /* SEmployeeDetailResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SEmployeeDetailResponse.swift; sourceTree = "<group>"; };
 		BF2C97972C03B7E000992610 /* SEmployeeDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SEmployeeDetailViewModel.swift; sourceTree = "<group>"; };
@@ -92,6 +96,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BF05770B2C07920600A15A8F /* ImageRecognitions */ = {
+			isa = PBXGroup;
+			children = (
+				BF05770F2C07930900A15A8F /* SImageProcessor.swift */,
+				BF05770C2C07926A00A15A8F /* View */,
+			);
+			path = ImageRecognitions;
+			sourceTree = "<group>";
+		};
+		BF05770C2C07926A00A15A8F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BF05770D2C07928400A15A8F /* SImageProcessView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		BF6C90B02C02EE71004ACA0B = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +139,7 @@
 				BF6C90DA2C02F5EF004ACA0B /* UIComponents */,
 				BF6C90D12C02F09B004ACA0B /* FeatureList */,
 				BF6C90CA2C02EE93004ACA0B /* DataStruture */,
+				BF05770B2C07920600A15A8F /* ImageRecognitions */,
 				BF6C90BC2C02EE71004ACA0B /* SGeneralUtilityApp.swift */,
 				BF6C90BE2C02EE71004ACA0B /* ContentView.swift */,
 				BF6C90C02C02EE74004ACA0B /* Assets.xcassets */,
@@ -386,6 +408,8 @@
 				BF6C90EC2C0300B4004ACA0B /* SStackViewModel.swift in Sources */,
 				BF6C91102C033EAA004ACA0B /* URLRepository.swift in Sources */,
 				BF6C90CC2C02EEC7004ACA0B /* SStack.swift in Sources */,
+				BF05770E2C07928400A15A8F /* SImageProcessView.swift in Sources */,
+				BF0577102C07930900A15A8F /* SImageProcessor.swift in Sources */,
 				BF6C90FD2C030EF0004ACA0B /* SLinkedListView.swift in Sources */,
 				BF6C90DE2C02F61A004ACA0B /* SLabel.swift in Sources */,
 				BF6C90F62C030D2C004ACA0B /* SQueueView.swift in Sources */,
